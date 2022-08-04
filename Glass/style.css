@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.wrapper{
+.wrapperl{
     width:100%;
     height:100%;
     min-height: 100vh;
@@ -21,9 +21,9 @@ body{
     background-image: url("https://images.pexels.com/photos/3503629/pexels-photo-3503629.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
 }
-.wrapper .box{
+.wrapperl .box{
     position: relative;
     width:280px;
     height:400px;
@@ -37,7 +37,7 @@ body{
     border-left:1px solid rgba(255,255,255,0.5);
     backdrop-filter: blur(5px);
     transform-style: preserve-3d;
-    transform: perspective(800px) 
+    transform: perspective(800px)
 }
 h2{
     color:#f5f5f5;

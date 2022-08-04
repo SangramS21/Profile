@@ -7,6 +7,7 @@
   <title>Profile | Sangram Samantaray</title>
   <link rel="icon" href="Sangram.jpg" type="image/x-icon" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="Glass/style.css">
   <style media="screen">
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
@@ -23,7 +24,7 @@ justify-content: center;
 min-height: 100vh;
 background-color: #080710;
 }
- 
+
 .background{
     width: 430px;
     height: 520px;
@@ -55,7 +56,7 @@ background-color: #080710;
     right: -30px;
     bottom: -80px;
 }
- 
+
 .wrapper,
 .wrapper .img-area,
 .social-icons a,
@@ -76,9 +77,9 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
-}                                      
+}
 
-.wrapper .img-area{                    
+.wrapper .img-area{
 height: 150px;
 width: 150px;
 border-radius: 50%;
@@ -97,7 +98,7 @@ width: 100%;
 border-radius: 50%;
 object-fit: cover;
 }
-.wrapper .name{                        
+.wrapper .name{
 font-size: 23px;
 font-weight: 500;
 color: white;
@@ -119,7 +120,7 @@ margin: 0 5px;
 display: inline-flex;
 text-decoration: none;
 border-radius: 50%;
-}                                      
+}
 .social-icons a:hover::before,
 .wrapper .icon:hover::before,
 .buttons button:hover:before{
@@ -141,7 +142,7 @@ border-radius: 5px;
 
 .buttons button:hover{
   color: black;
-}                                      
+}
 .social-icons a i{
 position: relative;
 z-index: 3;
@@ -175,7 +176,7 @@ width: 100%;
 border: none;
 outline: none;
 padding: 12px 0;
-color: #d0d1d6;                                                              
+color: #d0d1d6;
 font-size: 17px;
 font-weight: 400;
 border-radius: 5px;
@@ -192,18 +193,28 @@ margin-left: 10px;
   </style>
 </head>
 <body>
+  <!-- partial:index.partial.html -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
   <div class="background">
       <div class="shape"></div>
       <div class="shape"></div>
   </div>
 
 
+<div class="box">
+<div class="description">
    <div class="wrapper">
+     <div class="box">
+     <div class="description">
      <div class="img-area">
        <div class="inner-area">
          <img src="Sangram.jpg" alt="Profile pic">
        </div>
      </div>
+   </div>
+ </div>
 
      <div class="name">Sangram Samantaray</div>
      <div class="about">
@@ -212,14 +223,21 @@ margin-left: 10px;
      <div class="social-icons">
        <a href="https://www.instagram.com/sangram.samantray" class="gl"><i class="fab fa-instagram"></i></a>
        <a href="https://www.facebook.com/sangram.samantray.39" class="facebook"><i class="fab fa-facebook"></i></a>
-       <a href="mailto:samantaraysangram5@gmail.com" class="insta"><i class="fab fa-google"></i></a> 
+       <a href="mailto:samantaraysangram5@gmail.com" class="insta"><i class="fab fa-google"></i></a>
        <a href="https://wa.me/+918249859700" class="yt"><i class="fab fa fa-whatsapp"></i></a>
 
      </div>
      <div class="buttons">
-       
+
      </div>
 
    </div>
+</div>
+</div>
+
+   <script src="https://kit.fontawesome.com/bad7f7f5d4.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+<!-- partial -->
+  <script  src="Glass/script.js"></script>
 </body>
 </html>
